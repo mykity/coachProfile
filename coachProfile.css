@@ -1,0 +1,56 @@
+    .mCoachProfileWrap {
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .eachCoachWrap {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .mCoachName {
+        width: 100%;
+        background-color: #70a1ff;
+        font-size: 2em;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px auto;
+        border: 1px #fff dashed;
+    }
+
+    .mCoachCareer {
+        width: 100%;
+        background-color: #dfe4ea;
+        margin: 11px 0;
+        text-align: center;
+        border: 1px #fff dashed;
+        font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+        font-size: 1em;
+        display: none;
+        animation: fadeOut .5 linear;
+    }
+
+    .mCoachCareer img {
+        display: block;
+        margin: 11px auto;
+    }
+
+
+    .mobileBranchLink {
+        display: none;
+    }
+
+    .show {
+        display: block;
+        animation: fadeIn .5s linear;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+
