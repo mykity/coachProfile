@@ -10,25 +10,19 @@ function handleShowCareer(event) {
         mCoachCareerS[i].classList.remove('show');
         
     }
-    console.log(mCoachCareerS);
 
     let targetClass = event.target;
-    let targetNode = targetClass.nextElementSibling;
+    let targetNode = targetClass.nextElementSibling; // targetClass대신 this를 사용해도됨
     let display = targetNode.classList;
 
-    console.log(targetClass);
-
+    
     if (display.contains('show')) {
         display.remove('show');
-        console.log(`${targetClass}, if의 결과`);
-        return;
-    } else {
+
+    } else{
         display.add('show');
-        console.log(`${targetClass}, else의 결과`);
     }
 
-    console.log(targetClass);
-    console.log(clickCount);
 }
 
 
@@ -36,6 +30,18 @@ function main() {
     for (let i = 0; i < mCoachNameS.length; i++) {
         mCoachNameS[i].addEventListener('click', handleShowCareer);
     }
+
 }
 
 document.addEventListener('DOMContentLoaded', main);
+
+/* <script type="text/javascript" charset="utf-8">
+	jQuery(document).ready(function($) {
+		$(".mCoachName").click(function() {
+           $(".mCoachCareer").removeClass(".show");
+		   $(this.nextElementSibling).slideToggle('.show');
+		});
+	});
+</script>
+실제 홈페이지에서는 제이쿼리 사용
+*/
