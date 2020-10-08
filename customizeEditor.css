@@ -1,0 +1,493 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+/* main slide */
+.text-slider .maintitle {color: #fff;}
+.text-slider .subtitle {color: #fff;}
+
+/* what is crossfit */
+.wicWrap {}
+.wicWrap .wicTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.5em;
+ 	}
+.wicWrap .wicTop span {font-size: 0.8em;}
+.wicWrap .wicConWrap {
+	margin-top: 25px;
+	overflow: hidden;
+	}
+.wicWrap .wicConWrap .wicCon {
+	float: left;
+	width: 45%;
+}
+.wicWrap .wicConWrap .wicCon .wicSmallTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.25em;}
+.wicWrap .wicConWrap .wicCon .wicConDes {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.15em;
+	text-align: justify;
+ 	display: block;
+ 	margin-top: 10px;
+}
+.wicWrap .wicConWrap .wicYou {
+	float: right;
+	width: 50%;
+}
+.wicWrap .wicBottom {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.5em;
+	margin-top: 25px;
+	color: #bb0000;
+}
+
+/* why golden crown crossfit */
+.gccfWrap {}
+.gccfWrap .gccfTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 3.5em;
+	margin-bottom: 20px;
+	color: #000;
+    line-height: 0.99em;
+}
+.gccfWrap .gccfTop > span {
+    color: #d45050;
+    font-size: 0.7em;
+}
+.gccfWrap .gccConWrap {overflow: hidden;}
+.gccfWrap .gccConWrap .gccCon {
+	float: left;
+	width: 45%;
+}
+.gccfWrap .gccConWrap .gccLogo {
+	float: right;
+	width: 50%;
+}
+.gccfWrap .gccConWrap .gccCon .gccConTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.35em;
+	color: #000;
+}
+.gccfWrap .gccConWrap .gccCon .gccConDesWrap {
+	margin-bottom: 30px;
+}
+.gccConDes {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.25em;
+	text-align: justify;
+}
+
+/* our coach */
+.coachHover {
+	overflow: hidden;
+}
+.coachHover .hwang {
+	float: left;
+}
+.coachHover .yoo {
+	float: left;	
+}
+.coachHover .coach01 {
+	float: left;	
+}
+.picEffect {
+	margin-right: 30px;
+	cursor: pointer;
+	border: 1px #76767a solid;
+	border-radius: 7px;
+	opacity: 0.75;
+    text-align: center;
+}
+.picEffect:hover {
+	opacity: 1;
+	transition-duration: 0.5s;
+}
+span.picImg, span.coName {
+	display: block;
+}
+span.picImg {
+	margin: 7px;
+}
+span.picImg img {
+    width: 180px;
+    height: 150px;
+}
+span.coName {
+     font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	color: #0085BA;
+	text-align: center;
+	margin-bottom: 5px;
+}
+span.coName:hover {
+	font-style: bold;
+}
+.coachProWrap {
+	position: relative;
+}
+.coachProWrap .ProWrap {
+	position: absolute;	
+    top: 50px; left: 0;
+	overflow: hidden;
+	margin-bottom: 70px;
+    border: 1px #000 dashed;
+    border-radius: 10px;
+    padding: 5px;
+}
+.coachProWrap .ProWrap .proPic {
+	float: left;
+	margin-right: 30px;
+}
+.coachProWrap .ProWrap .proCareer {
+	float: left;
+}
+.coachProWrap .ProWrap .proCareer .coachName {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.5em;
+}
+.coachProWrap .ProWrap .proCareer .coachCareer {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1em;
+}
+.hwangArea {
+	display: none;
+}
+.yooArea {
+	display: none;
+}
+.coach01Area {
+	display: none;
+}
+
+/*타임테이블디테일*/
+        .timeTabWrap {
+			display: block;
+            width: 100%;
+            height: 900px;
+			font-family:  'Russo One', 'Nanum Barun Gothic', sans-serif;
+        }
+
+        .tabWrap {
+			display: flex;
+            width: 340px;
+        }
+
+        .tabEffect {
+            display: inline-block;
+            cursor: pointer;
+            padding: 5px;
+            text-align: center;
+            border: 2px solid #88e28b;
+        }
+        .tabEffect:hover {
+            border-color: #46A049;
+        }
+
+        .oddTab {
+            width: 150px;
+			margin-right: 5px;
+            background: #88e28b;
+            color: #fff;
+        }
+
+        .evenTab {
+            width: 150px;
+            color: #88e28b;
+            }
+
+        .timeVisibleWrap {
+            position: relative;
+			width: 100%;
+            margin-top: 30px;
+        }
+
+        .timeVisible {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .oddTime {
+			display: block;
+
+        }
+
+        .evenTime {
+            display: none;
+        }
+        .descrip {
+			display: block;
+            position: absolute;
+            left: 20;
+			font-size: 1.2em;
+        }
+/* Contact us */
+.mapWrap {overflow: hidden;}
+.mapCon {float: left; margin-right: 90px;}
+.mapGoo {float: left;}
+p {margin-bottom: 20px;}
+p:last-child {margin-bottom: 0;}
+
+.mapAdd, .mapEmail, .mapTel, .mapKakao, .mapManage {width: 22px; height: 22px; margin-right: 5px;}
+
+.mapAddress {font-family: 'Nanum Barun Gothic', sans-serif; font-size:1.5em; font-style:bold; color:#d65050; letter-spacing: 1px;}
+
+.day {display: inline; font-family:  'Russo One', 'Nanum Barun Gothic', sans-serif; font-size:1.35em; font-style:bold; color:#000; margin-right: 10px;}
+
+.dayTime {display: inline; font-family:  'Russo One', 'Nanum Barun Gothic', sans-serif; font-size:1.2em; font-style:bold; }
+
+.call {font-size: 2.5em;}
+.kakao {font-family: 'Nanum Barun Gothic', sans-serif; font-size: 2.0em; font-style: bold;}
+
+.mapEmail {display: inline; font-size: 2.5em;}
+
+/* trial */
+.trialText {font-family: 'Nanum Barun Gothic', sans-serif; font-size: 1.35em;}
+
+.pcPrivacyInfoWrap{
+	overflow: hidden;
+	width: 100%;
+	border: 0.5px #76767a dashed;
+	border-radius: 7px;
+	margin-bottom: 30px;
+	float: left;	
+}
+.pcPrivacyInfoImg{
+	float: left;
+	display: block;
+	width: 45%;
+	height: 257px;
+	background-image: url("/images/freeTrialTicket.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.pcPrivacyInfoWarn{
+	width: 55%;
+	he ight: 257px;
+	float: left;
+	display: block;
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 10px;
+margin-top: -10px;
+}
+.pcPrivacyInfoAgree {
+	display: block;
+	width: 100%;
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 20px;
+}
+input[id="pcTrialCheck"] {
+        position: relative;
+        top: 2px;
+}
+
+/* mobile invisible */
+.mobileBranchLink {
+	display: none;
+}
+
+/*--------------------------- media query -----------------------------*/
+@media only screen and (max-width: 768px) {
+/* main slide */
+.text-slider .maintitle, .text-slider .subtitle {color: #fff;}
+
+/* what is crossfit */
+.wicWrap {}
+.wicWrap .wicTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.5em;
+ 	}
+.wicWrap .wicTop span {font-size: 0.8em;}
+.wicWrap .wicConWrap {
+	margin-top: 25px;
+	}
+.wicWrap .wicConWrap .wicCon {
+	width: 100%;
+}
+.wicWrap .wicConWrap .wicCon .wicSmallTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.2em;}
+.wicWrap .wicConWrap .wicCon .wicConDes {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.3em;
+ 	display: block;
+ 	margin-top: 10px;
+}
+.wicWrap .wicConWrap .wicYou {
+	width: 100%;
+	margin-top: 7px;
+}
+
+/* why golden crown crossfit */
+.gccfWrap {}
+.gccfWrap .gccfTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.5em;
+	margin-bottom: 20px;
+    line-height: 1.5em;
+}
+.gccfWrap .gccfTop > span {
+    font-size: 1em;
+}
+.gccfWrap .gccConWrap {overflow: hidden;}
+.gccfWrap .gccConWrap .gccCon {
+	width: 100%;
+}
+.gccfWrap .gccConWrap .gccLogo {
+	width: 100%;
+}
+.gccfWrap .gccConWrap .gccCon .gccConTop {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.25em;
+}
+.gccfWrap .gccConWrap .gccCon .gccConDesWrap {
+	margin-bottom: 30px;
+}
+.gccConDes {
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 1.25em;
+	text-align: justify;
+}
+
+/* our coach */
+.coachHover {
+    width: 100%;
+}
+.coachHover .hwang {
+    float: left;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.coachHover .yoo {
+    float: left;
+    width: 40%;
+}
+.coachHover .coach01 {
+    float: left;
+    width: 40%;
+    margin-top: 15px;
+}
+.picEffect {
+	margin-right: 30px;
+	cursor: pointer;
+	border: 1px #76767a solid;
+	border-radius: 7px;
+	opacity: 1;
+}
+span.picImg {
+	margin: 7px;
+}
+span.picImg img {
+    width: 180px;
+    height: 150px;
+}
+.coachProWrap .ProWrap {
+    top: 30px; left: 0px;
+}
+
+/* timetable (모바일링크버전통합) */
+.mobileHidden {display: none;}
+.mobileBranchLink {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	
+}
+.mobileBranchLinkInside{
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	border: 2px #76767a dashed;
+	border-radius: 7px;
+	text-align: center;
+}
+.mobileBranchLinkInsideFont {
+	display: block;
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	font-size: 18px;
+	color: #D65050;
+}
+.privacyInfoImg {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.privacyInfoWarn {
+	display: block;
+	width: 100%;
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	border: 0.5px #76767a solid;
+	border-radius: 7px;
+	padding: 5px 7px;
+}
+.privacyInfoAgree {
+	display: inline-block;
+	width: 100%;
+	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+input[id="trialCheck"] {
+        position: relative;
+        top: 3px;
+      }
+.timeTableBg {
+	background-image: url("/images/m_timeTableIntro.jpg");
+background-position:center;
+}
+.trialBg {
+	background-image: url("/images/m_TriaLIntro.jpg");
+background-position:center;
+}
+.facilityBg {
+	background-image: url("/images/m_facility.jpg");
+background-position:center;
+}
+.contactUsBg {
+	background-image: url("/images/m_contactIntro.jpg");
+background-position:center;
+}
+
+/*타임테이블디테일*/
+.timeTabWrap {
+	 width: 100%;
+	 height: 400px;
+}
+.tabWrap {
+     width: 100%;
+	 text-align: center;
+}
+.tabEffect {
+     display: inline-block;
+	 width: 100%;
+}
+.descrip {
+     font-size: 1em;
+}
+
+
+/* contact us */
+.mapCon {width: 100%;}
+p {margin-bottom: 10px;}
+
+.mapAdd, .mapEmail, .mapTel, .mapKakao, .mapManage {width: 15px; height: 15px;}
+
+.mapAddress {font-family: 'Nanum Barun Gothic', sans-serif; font-size: 1.2em; font-style:bold; color:#d65050; letter-spacing: none; text-align: justify;}
+
+.day {display: inline-block; font-family: 'Nanum Barun Gothic', sans-serif; font-size:1.2em; font-style:bold; color:#000; margin-right: 10px;}
+
+.dayTime {display: inline-block; font-size:1.2em; font-style:bold; color:#d65050;}
+
+.call, .kakao {font-size: 1.5em;}
+
+.mapEmail {display: inline-block;}
+}
+
+.mapGoo {margin-top: 20px;}

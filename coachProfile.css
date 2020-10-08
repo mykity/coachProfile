@@ -5,20 +5,20 @@
 
     .eachCoachWrap {
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 5px;        
     }
 
     .mCoachName {
-        width: 100%;
         background-color: #70a1ff;
         font-size: 2em;
         text-align: center;
         vertical-align: middle;
         padding: 14px auto;
         border: 1px #fff dashed;
+        z-index: 10;
     }
 
-    .mCoachCareer {
+    .mCoachCareer {   
         width: 100%;
         background-color: #dfe4ea;
         margin: 11px 0;
@@ -27,7 +27,8 @@
         font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
         font-size: 1em;
         display: none;
-        animation: fadeOut .5 linear;
+        z-index: 1;
+        overflow: hidden;
     }
 
     .mCoachCareer img {
@@ -35,22 +36,28 @@
         margin: 11px auto;
     }
 
-
-    .mobileBranchLink {
-        display: none;
-    }
-
     .show {
         display: block;
-        animation: fadeIn .5s linear;
+        /* animation: openDown .5s ease-in; */
     }
 
-    @keyframes fadeIn {
+    /* @keyframes openDown {
         from {
-            opacity: 0;
+            height: 0;
         }
 
         to {
-            opacity: 1;
+            height: 100%;
+        }
+    }
+
+    @keyframes closeUp {
+        from {
+            height: 100%;
         }
 
+        to {
+            height: 0;
+            display: none;
+        }
+    } */
