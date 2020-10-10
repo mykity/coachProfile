@@ -1,63 +1,97 @@
-    .mCoachProfileWrap {
-        width: 100%;
-        font-family: 'Courier New', Courier, monospace;
+.mCoachProfileWrap {
+    width: 100%;
+    height: 100%;
+    font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
+}
+
+.eachCoachWrap {
+    width: 100%;
+    margin-bottom: 10px;        
+}
+
+.mCoachName {
+    overflow: hidden;
+    background-color: #70a1ff;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    border: 2px #76767a dashed;
+	border-radius: 7px;
+    z-index: 10;
+    display: block;
+	font-size: 1.5em;
+    color: #dff9fb;
+    opacity: 0.8;
+}
+
+.mCoachCareer {   
+    width: 100%;
+    background-color: #ffffff;
+    margin: 11px 0;
+    padding-bottom: 11px;
+    text-align: center;
+    border: 2px #76767a dashed;
+	border-radius: 7px;
+    font-size: 1em;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mCoachCareer img {
+    display: block;
+    margin: 11px auto -11px auto;
+}
+
+.show {
+    display: block;
+    animation: openDown 1s ease-in-out;
+}
+
+.mWhang {
+    background: no-repeat url("/images/hwang.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mYoo {
+    background: no-repeat url("/images/yoo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mJoYoung {
+    background: no-repeat url("/images/youngjo.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.mYoon {
+    background: no-repeat url("/images/changhoon.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.mYoungsun {
+    background: no-repeat url("/images/youngsun.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+@keyframes openDown {
+    from {
+        height: 0;
     }
 
-    .eachCoachWrap {
-        width: 100%;
-        margin-bottom: 5px;        
+    to {
+        height: 100%;
+    }
+}
+
+/* @keyframes closeUp {
+    from {
+        height: 100%;
     }
 
-    .mCoachName {
-        background-color: #70a1ff;
-        font-size: 2em;
-        text-align: center;
-        vertical-align: middle;
-        padding: 14px auto;
-        border: 1px #fff dashed;
-        z-index: 10;
-    }
-
-    .mCoachCareer {   
-        width: 100%;
-        background-color: #dfe4ea;
-        margin: 11px 0;
-        text-align: center;
-        border: 1px #fff dashed;
-        font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
-        font-size: 1em;
+    to {
+        height: 0;
         display: none;
-        z-index: 1;
-        overflow: hidden;
     }
-
-    .mCoachCareer img {
-        display: block;
-        margin: 11px auto;
-    }
-
-    .show {
-        display: block;
-        /* animation: openDown .5s ease-in; */
-    }
-
-    /* @keyframes openDown {
-        from {
-            height: 0;
-        }
-
-        to {
-            height: 100%;
-        }
-    }
-
-    @keyframes closeUp {
-        from {
-            height: 100%;
-        }
-
-        to {
-            height: 0;
-            display: none;
-        }
-    } */
+} */

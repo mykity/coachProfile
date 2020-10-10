@@ -1,0 +1,43 @@
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function($) {
+        $(".oddTab").click(function() {
+            $(".tabEffect").css({"background": "none",
+                                 "color":"#88e28b"});
+            $(".timeVisible").css({"display":"none"});
+            $(".oddTime").fadeIn();
+            $(this).css({"background":"#88e28b",
+                         "color":"#fff"});
+        });
+        $(".evenTab").click(function() {
+            $(".tabEffect").css({"background": "none",
+                                 "color":"#88e28b"});
+            $(".timeVisible").css({"display":"none"});
+            $(".evenTime").fadeIn();
+            $(this).css({"background": "#88e28b",
+                         "color":"#fff"});
+        });
+        var descripTop;
+        descripTop = $(".timeVisible").outerHeight() + 180;
+        $(".descrip").css({"top":descripTop});
+    });
+</script>
+
+    <div class="timeTabWrap">
+        <div class="tabWrap">
+            <span class="oddTab tabEffect">1, 3, 5, 7, 9, 11월</span>
+            <span class="evenTab tabEffect">2, 4, 6, 8, 10, 12월</span>
+        </div>
+        <div class="timeVisibleWrap">
+            <div class="oddTime timeVisible">
+                <img src="/images/odd_seo.jpg">
+            </div>
+            <div class="evenTime timeVisible">
+                <img src="/images/even_seo.jpg">
+            </div>
+        </div>
+        <div class="descrip">
+CrossFit All Level : 크로스핏의 기본 동작들을 자세히 배울 수 있는 초급, 중급자 위주의 클래스로써 누구나 부담없이 참여할 수 있습니다.
+BOOTCAMP : 신체의 기능적 동작들을 베이스로 운동을 쉽고 재미있게 할 수 있는 고강도 다이어트 프로그램입니다.
+Weight Lifting &amp; C.F : Weight Lifting에 스킬과 운동에 대하여 깊게 배울 수 있는 프로그램입니다.
+        </div>
+    </div>

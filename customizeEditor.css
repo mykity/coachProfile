@@ -81,16 +81,9 @@
 /* our coach */
 .coachHover {
 	overflow: hidden;
+	display: flex;
 }
-.coachHover .hwang {
-	float: left;
-}
-.coachHover .yoo {
-	float: left;	
-}
-.coachHover .coach01 {
-	float: left;	
-}
+
 .picEffect {
 	margin-right: 30px;
 	cursor: pointer;
@@ -156,6 +149,12 @@ span.coName:hover {
 	display: none;
 }
 .coach01Area {
+	display: none;
+}
+.coach02Area {
+	display: none;
+}
+.coach03Area {
 	display: none;
 }
 
@@ -244,6 +243,17 @@ p:last-child {margin-bottom: 0;}
 
 /* trial */
 .trialText {font-family: 'Nanum Barun Gothic', sans-serif; font-size: 1.35em;}
+.trialFlex {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.trialPc {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
 
 .pcPrivacyInfoWrap{
 	overflow: hidden;
@@ -251,7 +261,8 @@ p:last-child {margin-bottom: 0;}
 	border: 0.5px #76767a dashed;
 	border-radius: 7px;
 	margin-bottom: 30px;
-	float: left;	
+	float: left;
+	vertical-align: middle;
 }
 .pcPrivacyInfoImg{
 	float: left;
@@ -265,14 +276,14 @@ p:last-child {margin-bottom: 0;}
 }
 .pcPrivacyInfoWarn{
 	width: 55%;
-	he ight: 257px;
+	height: 257px;
 	float: left;
 	display: block;
 	font-family: 'Russo One', 'Nanum Barun Gothic', sans-serif;
 	font-size: 14px;
-	text-align: left;
+	text-align: center;
 	padding-left: 10px;
-margin-top: -10px;
+    margin-top: -10px;
 }
 .pcPrivacyInfoAgree {
 	display: block;
@@ -357,7 +368,8 @@ input[id="pcTrialCheck"] {
 
 /* our coach */
 .coachHover {
-    width: 100%;
+	width: 100%;
+	display: none;
 }
 .coachHover .hwang {
     float: left;
